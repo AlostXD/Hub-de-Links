@@ -33,6 +33,11 @@ body {
     padding-top: 150px;
 }
 
+.upper-home, .contato {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .upper-home {
     background-image: url('/img/bg-home.webp');
     background-repeat: no-repeat;
@@ -195,6 +200,6 @@ body {
 
     .contato, .lower-home, .upper-home {
         height: 100%;
-        margin: 100px auto;
+        padding-top: 100px;
     }
 }
