@@ -119,6 +119,7 @@ body {
 
 .left-contato, .right-contato {
     max-width: 350px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -172,4 +173,28 @@ body {
 
 .patrocinios img {
     max-width: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .contato-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-equipe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .btn-equipe a {
+        max-width: 60%;
+    }
+
+    .contato, .lower-home, .upper-home {
+        height: 100%;
+        margin: 100px auto;
+    }
 }
