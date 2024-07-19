@@ -230,4 +230,18 @@ body {
     .btn-equipe a {
         max-width: 60%;
     }
+
+    .upper-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .patrocinios {
+        flex-direction: row;
+        position: static;
+        margin: auto;
+        margin-top: 150px;
+    }
 }
