@@ -132,7 +132,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 30px;
     background-color: rgba(159, 80, 31, 0.9);
@@ -160,7 +160,7 @@ body {
     list-style: none;
 }
 
-.headstaff {
+.headstaff, .direcao {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,6 +183,15 @@ body {
 .patrocinios img {
     max-width: 120px;
 }
+
+.upper-content, .contato {
+    height: 100%;
+}
+
+.contato-content {
+    height: 500px;
+}
+
 
 @media screen and (max-width: 768px) {
     .contato-content {
