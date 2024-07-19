@@ -74,6 +74,10 @@ body {
     height: 100vh;
 }
 
+.upper-content, .lower-content, .contato {
+    height: 100vh;
+}
+
 .link-box {
     display: flex;
     flex-direction: column;
@@ -201,5 +205,20 @@ body {
     .contato, .lower-home, .upper-home {
         height: 100%;
         padding-top: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .btn-equipe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .btn-equipe a {
+        max-width: 60%;
     }
 }
