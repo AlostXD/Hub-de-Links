@@ -242,6 +242,7 @@ body {
         flex-direction: row;
         position: static;
         margin: auto;
+        flex-wrap: wrap;
         margin-top: 150px;
     }
 }
